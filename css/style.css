@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a, a:focus, a:visited    {
+    text-decoration: none;
+}
+body {
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: black;
+    color: rgb(252, 252, 252);
+}
+header {
+    height: 150px;
+}
+header h1 {
+    font-size: 8rem;
+    font-family: "Abril Fatface", cursive;
+}
+header h2 {
+    font-size:2rem;
+    text-align: center  ;
+}
+section {
+    font-size: 2rem;
+    max-width: 800px;
+    height: 100%;
+}
+.links {
+    margin-top: 6rem;
+}
+section p {
+    padding-top: 3rem;
+    text-align: center;
+}
+section a img{
+    justify-content: space-between;
+    margin: 3rem;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    filter: invert();
+    transform: scale(1);
+    transition: ease-in 100ms;
+
+}
+section a img:hover{
+    transform: scale(1.1);
+}
+
+button {
+    text-align: center;
+}
+
+footer p {
+    font-size: 1.5rem;
+    padding-top: 50px;
+}
